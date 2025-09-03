@@ -22,3 +22,28 @@ server.listen(port, hostname, () => {
 //lépj be mappába
 //írd be a node server.js parnacsot és futtasd.
 //alján van a link amit másosz a böngészőbe, ennyike:)
+
+//TYPE SCRIPT:
+// index.ts fájl
+//Terminál
+//Mappába belépsz
+//tsc index.ts
+//lefordul .js-re
+//csinálsz index.html fájt
+//index.html-be body részbe beírod: <script src="index.js"></script>
+//tsc index.ts -w futtatod a terminálba 
+//mehet a kódolás az index.ts-be:)
+
+//ANGULAR:
+//új terminált nyitsz
+//cd mappába belépsz
+//ng new vizsga --no-standalone
+//cd vizsga
+//ng g c vizsgafeladat
+//Rooting: {path:"/vizsgafeladat", component:Vizsgafeladat}
+//        {path:"**", component:Vizsgafeladat}
+//felette jelenjen meg, vagy írd majd be manuálisan!!!
+//npm i bootstrap
+//angular.json-b "styles": [
+//                 "./node_modules/bootstrap/dist/css/bootstrap.css",
+//                 "src/styles.css"
