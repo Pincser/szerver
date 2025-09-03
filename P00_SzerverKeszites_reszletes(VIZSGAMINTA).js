@@ -15,4 +15,10 @@ const server = http.createServer((req, res) => {
 //A szerver felülegyel a megadott porton, hostnéven indításkor visszajelez a konzol felületre, a szerver címével
 server.listen(port, hostname, () => {
     console.log(`A szerverünk fut a http://${hostname}:${port} címen`);
+
 })
+
+//Nyiss új terminált
+//lépj be mappába
+//írd be a node server.js parnacsot és futtasd.
+//alján van a link amit másosz a böngészőbe, ennyike:)
